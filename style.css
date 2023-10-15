@@ -2,9 +2,14 @@
     background-color: wheat;
 }
 
-header ul{
+header ul {
+    padding: 0% 10%;
+
     display: flex;
+    justify-content: space-between;
     gap: 20px;
 
     list-style-type: none;
+
+
 }
