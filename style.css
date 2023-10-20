@@ -293,21 +293,37 @@ header ul li {
 
 /* Comparison section styling here */
 
-.comparison h2 {
+.comparison {
     color: #1D1D1F;
-        text-align: center;
-        font-size: 2.5rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 52.008px;
-        /* 108.349% */
-        letter-spacing: -0.144px;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.859% */
+    letter-spacing: -0.224px;
 }
 
-.comparison {
-    
+.comparison h2 {
+    color: #1D1D1F;
+    text-align: center;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px;
+    /* 108.349% */
+    letter-spacing: -0.144px;
+}
+
+.comparisonTable {
+    display: grid;
+    gap: 2rem;
+
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(8, 1fr); */
+
 }
 
 .iphone-figures {
-    display: flex;
+    /* display: flex; */
 }
