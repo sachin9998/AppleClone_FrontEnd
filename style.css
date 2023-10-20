@@ -506,13 +506,18 @@ header ul li {
 
 /* iPhone SE Section figure */
 .hero-se {
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 5rem;
 
-    margin-top: 10px;
+    margin-top: 15px;
+}
+
+.right-side img {
+    height: 100vh;
 }
 
 .left-side {
@@ -522,6 +527,8 @@ header ul li {
 
     gap: 1.5rem;
 }
+
+
 
 .se-heading {
     text-align: center;
