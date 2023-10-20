@@ -324,7 +324,7 @@ header ul li {
     margin: 0 auto;
 
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
 
     grid-template-columns: repeat(4, 1fr);
     /* grid-template-rows: repeat(8, 1fr); */
@@ -348,7 +348,8 @@ header ul li {
 
     border-bottom: 1px solid #D2D2D7;
 
-    padding: 1.5rem 0;
+    /* padding: 1rem 0; */
+    padding: 1rem 0 2rem 0;
 }
 
 .bold1 {
@@ -363,8 +364,11 @@ header ul li {
     gap: 0.8rem;
 }
 
-.dyanamic-island {
-    display: flex;
+.dyanmic-island {
+    /* padding: 1rem 0; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
 }
 
 .di {
@@ -381,6 +385,12 @@ header ul li {
 .small1 {
     /* font-size: 14px; */
     color: #1D1D1F;
+}
+
+.empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .spec-new-text {
@@ -442,6 +452,33 @@ header ul li {
     letter-spacing: -0.224px;
 }
 
-.iphone-figures {
-    /* display: flex; */
+.sos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.camera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.battery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.network {
+    border-bottom: 1px solid #D2D2D7;
+    padding: 1rem 0 2rem 0;
 }
