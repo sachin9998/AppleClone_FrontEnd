@@ -482,3 +482,57 @@ header ul li {
     border-bottom: 1px solid #D2D2D7;
     padding: 1rem 0 2rem 0;
 }
+
+.compare-footer {
+    color: #0066CC;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    /* 138.1% */
+    letter-spacing: 0.231px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    /* justify-content: space-around; */
+}
+
+.compare-footer div {
+    padding: 50px;
+}
+
+/* iPhone SE Section figure */
+.hero-se {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+    margin-top: 10px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1.5rem;
+}
+
+.se-heading {
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px;
+    /* 108.349% */
+    letter-spacing: -0.144px;
+    background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
