@@ -153,6 +153,12 @@ header ul li {
     color: white;
     border-radius: 980px;
     background: #0071E3;
+
+    cursor: pointer;
+}
+
+.buy-btn a {
+    color: white;
 }
 
 .learn-more {
