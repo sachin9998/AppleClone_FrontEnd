@@ -57,6 +57,7 @@ header ul li {
 
 .list div {
     padding: 5px 0px;
+    cursor: pointer;
 }
 
 .list img {
