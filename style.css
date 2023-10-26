@@ -315,6 +315,8 @@ header ul li {
     line-height: 20px;
     /* 142.859% */
     letter-spacing: -0.224px;
+
+    background-color: #fff !important;
 }
 
 .comparison h2 {
@@ -527,6 +529,7 @@ header ul li {
     gap: 5rem;
 
     margin-top: 15px;
+    background-color: #fff;
 }
 
 .right-side img {
@@ -562,8 +565,8 @@ header ul li {
 
 .wow-main {
     background: #01012A;
-
-    margin: 5%;
+    height: 500px;
+    margin: 2% 5%;
 
     display: flex;
     justify-content: space-evenly;
@@ -574,6 +577,7 @@ header ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* justify-content: space-around; */
 }
 
 .wow-heading {
@@ -600,13 +604,15 @@ header ul li {
 
 .wow-right img {
     padding: 20px 0px;
+    height: 500px;
+    /* overflow: hidden; */
 }
 
 
 /* ways to buy section */
 
 .ways {
-    margin: 5%;
+    margin: 7% 5%;
 }
 
 .ways-heading {
@@ -630,7 +636,7 @@ header ul li {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
+
     height: 600px;
 
     background-color: #FFF;
@@ -718,4 +724,191 @@ header ul li {
     font-weight: 400;
     line-height: 20px;
     letter-spacing: -0.374px;
+}
+
+/* Why apple section */
+
+.why-apple {
+    margin: 5%;
+
+    background: url(./assets/all-iphones-banner.jpeg);
+
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.why-apple-main {
+    /* height: 250px; */
+    height: 300px;
+    max-width: 400px;
+
+    display: flex;
+    flex-direction: column;
+
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.why-apple-main h2 {
+    color: #1D1D1F;
+    text-align: center;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.008px;
+    /* 108.349% */
+    letter-spacing: -0.144px;
+}
+
+.why-apple-main p {
+    color: #1D1D1F;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    /* 138.1% */
+    letter-spacing: 0.231px;
+
+    /* text-align: justify; */
+}
+
+/* Featured Accessories Section .... */
+
+/* .ways-heading {
+    color: #1D1D1F;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 107.143% */
+/* letter-spacing: -0.28px;
+
+    padding: 0% 5% 3% 0%;
+/* } */
+
+
+
+
+/* Footer Section */
+
+footer {
+    margin: 5% 5% 2% 5%;
+}
+
+.footer-links {
+    /* margin: 5% 5% 1% 5%; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.links-heading {
+    color: #1D1D1F;
+    font-size: 12px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 16px;
+    /* 133.337% */
+    letter-spacing: -0.12px;
+    padding-bottom: 5px;
+}
+
+.footer-links li {
+    list-style-type: none;
+}
+
+.footer-links a {
+    color: #424245;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.337% */
+}
+
+.footer-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.footer-end {
+    /* margin: 5%; */
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-end-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 5px 0px;
+}
+
+.footer-end ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+
+.footer-end a {
+    color: #06C;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.footer-end p {
+    color: #6E6E73;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.337% */
+}
+
+
+.copyright-text {
+    color: #424245;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.337% */
+}
+
+.copyright-link a {
+    color: #424245;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.337% */
+}
+
+.line {
+    border-bottom: 0.5px solid #D2D2D7;
+    padding: 5px 0px;
 }
