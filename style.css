@@ -550,3 +550,69 @@ header ul li {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
+/* wow section */
+
+.wow-main {
+    background: #01012A;
+
+    margin: 5%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wow-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wow-heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.009px;
+    /* 111.121% */
+    letter-spacing: -0.27px;
+}
+
+.wow-normal-heading {
+    color: #2997FF;
+    text-align: center;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    /* 138.1% */
+    letter-spacing: 0.231px;
+}
+
+.wow-right img {
+    padding: 20px 0px;
+}
+
+
+/* ways to buy section */
+
+.ways-heading {
+    color: #1D1D1F;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 107.143% */
+    letter-spacing: -0.28px;
+
+    padding: 0% 5% 3% 0%;
+}
+
+.ways-container {
+    display: flex;
+    flex-direction: column;
+}
